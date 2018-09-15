@@ -1,0 +1,33 @@
+#sidebar {
+    positon:absolute;
+    background-color:lightgray;
+    padding:30px 60px;
+    text-align:left;
+    display: block;
+    margin-top:-15px;
+    margin-left: 70%;
+
+}
+h1{
+    background-color: lightskyblue;
+    padding:10px;
+    margin-left:0;
+}
+.content{
+    display: inline-block;
+    width: 40%;
+    float: left;
+}
+
+
+html, body{
+    font-family: sans-serif;
+}
+p.date{
+    font-weight:bold;
+    font:italic 12px sans-serif;
+}
+.pagination{
+    margin-top:10px;
+}
+
