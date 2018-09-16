@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -124,8 +124,9 @@ STATIC_DIRS = 'static'
 STATICFILES_DIRS = [
     STATIC_DIRS,
 ]
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'your_account@gmail.com'
-EMAIL_HOST_PASSWORD = 'your_password'
+EMAIL_HOST = 'smt.gmail.com'
+EMAIL_HOST_USER = 'jrsmith072@gmail.com'
+EMAIL_HOST_PASSWORD = 'Mookie09'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
