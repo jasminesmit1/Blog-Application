@@ -124,7 +124,7 @@ STATIC_DIRS = 'static'
 STATICFILES_DIRS = [
     STATIC_DIRS,
 ]
-EMAIL_HOST = 'smt.gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'jrsmith072@gmail.com'
 EMAIL_HOST_PASSWORD = 'Mookie09'
 EMAIL_PORT = 587
