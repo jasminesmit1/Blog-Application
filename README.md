@@ -1,1 +1,2 @@
 # Blog-Application
+This project contains repository code for a simple blog application titled mysite that utilizes the Django framework. The application includes a  blog and administration site for your models, a project database with QuerySets for creating, modifiying and retrieving objects, and a post sharing feature via email. This application can be successfully deployed via your local machine or through the Heroku website.
