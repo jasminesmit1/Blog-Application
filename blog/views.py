@@ -62,3 +62,8 @@ def post_share(request, post_id):
     return render(request, 'blog/post/share.html', {'post': post,
                                                     'form': form,
                                                     'sent': sent})
+
+
+def home(request):
+    return render(request, "home.html")
+
